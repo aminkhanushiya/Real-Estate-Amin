@@ -1,0 +1,16 @@
+.bannerCart {
+    background-color: var(--grey-10);
+    border: 1px solid var(--grey-15);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+.cartTxt {
+    font-size: 14px;
+    color: var(--grey-60);
+}

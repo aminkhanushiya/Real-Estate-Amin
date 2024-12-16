@@ -1,0 +1,11 @@
+.left {
+    padding: 100px 0;
+}
+
+.bannerTxt {
+    color: var(--grey-60);
+}
+
+.bannerimg {
+    width: 100%;
+}

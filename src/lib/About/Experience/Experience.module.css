@@ -1,0 +1,15 @@
+.Experience {
+    padding: 0 0 100px 0;
+}
+
+.Experiencecart {
+    padding: 10px;
+    border: 1px solid var(--grey-15);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.title {
+    border-left: 1px solid var(--grey-15);
+    padding-left: 10px;
+}

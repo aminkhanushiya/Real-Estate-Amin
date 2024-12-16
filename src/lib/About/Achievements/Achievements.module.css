@@ -1,0 +1,9 @@
+.Achievementscart {
+    border: 3px solid var(--grey-15);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.Achievements {
+    padding: 0 0 100px 0;
+}

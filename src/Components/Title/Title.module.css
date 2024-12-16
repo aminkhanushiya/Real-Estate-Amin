@@ -1,0 +1,19 @@
+.title {
+    padding: 50px 0;
+}
+
+.desc {
+    color: var(--grey-60);
+}
+
+.left {
+    text-align: end;
+}
+
+.titleBtn {
+    background-color: var(--grey-10);
+    border: 1px solid var(--grey-15);
+    padding: 10px;
+    border-radius: 8px;
+    color: var(--grey-60);
+}

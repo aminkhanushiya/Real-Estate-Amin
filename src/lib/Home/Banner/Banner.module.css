@@ -1,0 +1,45 @@
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bannerLeft {
+    width: 50%;
+    background-color: var(--blach-color);
+}
+
+.bannerTxt {
+    margin-left: 112px;
+    padding: 50px 0;
+}
+
+.bennerBtn {
+    display: flex;
+    gap: 20px;
+}
+
+.bennerBtn {
+    margin-left: 112px;
+}
+
+.borderBtn {
+    border: 1px solid var(--grey-15);
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.fillBtn {
+    background-color: var(--purpal-60);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.bannerRight {
+    width: 50%;
+}
+
+.bannerImage {
+    width: 90%;
+}

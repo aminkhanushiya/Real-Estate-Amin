@@ -1,0 +1,19 @@
+.find {
+    background-color: var(--blach-color);
+    padding: 10px;
+    border-top: 1px solid var(--grey-10);
+    margin-top: 5px;
+    text-align: center;
+}
+
+.proparty {
+    background-color: var(--grey-10);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--grey-15);
+}
+
+.title {
+    font-style: normal;
+    margin-top: 20px;
+}

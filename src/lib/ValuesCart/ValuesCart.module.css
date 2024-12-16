@@ -1,0 +1,20 @@
+.ValuesCart {
+    /* border-right: 1px solid var(--grey-15); */
+    /* border-bottom: 1px solid var(--grey-15); */
+    margin-top: 20px;
+}
+
+.imgTxt {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.valcarimg {
+    width: 50px;
+}
+
+.valuesTxt {
+    color: var(--grey-60);
+    margin-top: 10px;
+}
