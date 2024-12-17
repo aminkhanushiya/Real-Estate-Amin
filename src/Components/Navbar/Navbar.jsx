@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './Navbar.module.css'
 import LogoImg from '../../assets/Images/Logo.png'
-function NavBar() {
+function Navbar() {
     return (
         <>
 
@@ -38,4 +38,4 @@ function NavBar() {
     )
 }
 
-export default NavBar
+export default Navbar

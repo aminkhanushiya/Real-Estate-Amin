@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from '../../Components/NavBar/Navbar'
+import Navbar from '../../Components/Navbar/Navbar'
 import Banner from './Banner/Banner'
 import Values from './Values/Values'
 import AboutTitle from '../../Components/AboutTitle/AboutTitle'
@@ -12,7 +12,7 @@ import Team from './Team/Team'
 function About() {
     return (
         <>
-            <NavBar />
+            <Navbar />
             <div className="container">
                 <Banner />
                 <Values />

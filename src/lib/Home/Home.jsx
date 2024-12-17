@@ -3,12 +3,12 @@ import React from 'react'
 import Banner from './Banner/Banner'
 import Find from './FindPro/Find'
 import Title from '../../Components/Title/Title'
-import NavBar from '../../Components/NavBar/Navbar'
+import Navbar from '../../Components/Navbar/Navbar'
 // import Banner from 'Banner'
 function Home() {
     return (
         <>
-            <NavBar />
+            <Navbar />
             <Banner />
             <Find />
             <Title Heading={'Featured Properties'}
