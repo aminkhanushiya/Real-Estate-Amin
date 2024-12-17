@@ -1,8 +1,9 @@
 import React from 'react'
-import NavBar from '../../Components/NavBar/NavBar'
+
 import Banner from './Banner/Banner'
 import Find from './FindPro/Find'
 import Title from '../../Components/Title/Title'
+import NavBar from '../../Components/NavBar/Navbar'
 // import Banner from 'Banner'
 function Home() {
     return (

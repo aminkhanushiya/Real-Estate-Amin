@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './lib/Home/Home'
+// import Home from './lib/Home/Home'
 import About from './lib/About/About'
 
 function App() {
