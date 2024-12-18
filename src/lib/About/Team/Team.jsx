@@ -1,12 +1,41 @@
 import React from 'react'
 import style from './Team.module.css'
-import AboutTitle from '../../../Components/AboutTitle/AboutTitle'
+import hello from '../../../assets/Images/Text.png'
+import { LuSend } from 'react-icons/lu'
+import { FaTwitter } from 'react-icons/fa'
 
-function Team() {
+function Team({ owner, OwnerName, Position }) {
     return (
         <div className={style.Team}>
-            <AboutTitle values={'Our Achievements'} valuesdesc={'Our story is one of continuous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary.'} />
+
+            <div className={style.teamcart}>
+                <img className={style.ownerImg} src={owner} alt="" />
+                <div className={style.twitter}>
+                    <FaTwitter />
+                </div>
+                <h5 className={style.ownerName}>{OwnerName}</h5>
+                <p className={style.position}>{Position}</p>
+
+
+                <div className={style.sedding}>
+                    <img src={hello} alt="" />
+                    <div className={style.seddingBtn}>
+                        <LuSend />
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
         </div>
+
+
+
     )
 }
 

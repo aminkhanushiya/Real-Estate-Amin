@@ -1,0 +1,45 @@
+.teamcart {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid var(--grey-15);
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.sedding {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--grey-15);
+    padding: 10px 15px;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.ownerImg {
+    width: 100%;
+}
+
+.position {
+    color: var(--grey-60);
+}
+
+.ownerName {
+    margin-top: 50px;
+}
+
+.seddingBtn {
+    background-color: var(--purpal-60);
+    padding: 10px 13px;
+    border-radius: 50%;
+}
+
+.twitter {
+    background-color: var(--purpal-60);
+    width: 60px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 215px;
+    left: 110px;
+}
